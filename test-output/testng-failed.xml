@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="pageObject.Reports"/>
+    <listener class-name="pageObject.TestNgReports"/>
+  </listeners>
+  <test name="validateheading(failed)">
+    <classes>
+      <class name="cucumberoptions.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- cucumberoptions.TestRunner -->
+    </classes>
+  </test> <!-- validateheading(failed) -->
+</suite> <!-- Failed suite [Suite] -->
